@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <script type="text/javascript" src="js/jscolor.js"></script>        
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+           
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+
+
+        <title>Simple JS+CSS3 button generator</title>        
+    </head>
+    <body>		   
+        <div class="container">
+            <h2 class="text-center">Simple JS+CSS3 button generator</h2>
+            <div class="row-fluid well">
+                <div class="span4">                           
+                    <h3 class="text-center">Border-radius</h3>
+
+                    <div class="row-fluid">
+                        <div class="span6 text-center"> 
+                            <button class="btn" id="increas-radius">
+                                <i class="icon-chevron-up"></i>
+                            </button>
+                            <button class="btn" id="reduce-radius">
+                                <i class="icon-chevron-down"></i>
+                            </button>
+                        </div>
+
+                        <div class="span6 text-center"> 
+                            <div class="input-prepend">
+                                <span class="add-on">Step</span>
+                                <input class="input-mini" id="step" size="16" type="text" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h3 class="text-center">Color</h3>
+
+                    <div class="row-fluid">
+                        <div class="span6 text-center"> 
+                            <div class="input-prepend">
+                                <span class="add-on">Background</span>
+                                <input class="input-mini color" id="bg-color" size="16" type="text" value="cccccc">
+                            </div>
+                        </div>
+
+                        <div class="span6 text-center"> 
+                            <div class="input-prepend">
+                                <span class="add-on">Border</span>
+                                <input class="input-mini color" id="border-color" size="16" type="text" value="777777">
+                            </div>
+                        </div>
+                    </div>             
+
+                </div>
+
+                <div class="span4">                           
+                    <h3 class="text-center">Result</h3>
+
+                    <div class="create">
+                    </div>
+
+                </div>
+
+                <div class="span4 text-center">                           
+                    <h3 class="text-center">You CSS</h3>
+                    <textarea id="code-result" cols="30" rows="7"></textarea>
+                </div>
+            </div>
+
+
+            <hr>
+            <footer>
+                <p>&copy; Simple JS+CSS3 button generator 2015</p>
+            </footer>
+        </div>        
+
+
+    </body>
+</html>
